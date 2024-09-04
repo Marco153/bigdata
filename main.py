@@ -13,7 +13,7 @@ langs = []
 watchers = []
 dict = {}
 y = json.loads(st)
-headers = {'User-Agent': 'request', 'Authorization': 'token ' + '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'}
+headers = {'User-Agent': 'request', 'Authorization': 'token ' + 'tt'}
 for i in zip(range(0, 50), y):
     req = requests.get(i[1]['repo'], headers=headers)
     if req.status_code == 200:
